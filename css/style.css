@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing */
+    align-items: center;
+    height: 80px;
+    margin: 0;
+}
+
+nav li {
+    height: 50px;
+}
+
+.skip-link {
+    display: none;
+}
+.active {
+    background-color: #ffffff;
+    color: purple;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    color: #ce223f;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+main img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+@media (prefers-reduced-motion: reduce) {
+    main img {
+        animation: none; /* Disable animations for images */
+    }
+}
