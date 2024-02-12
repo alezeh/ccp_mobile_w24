@@ -40,7 +40,7 @@ nav li {
     text-decoration-color: purple;
 }
 
-.button:hover {
+li:hover {
     background-color: antiquewhite;
     color: #ce223f;
 }
