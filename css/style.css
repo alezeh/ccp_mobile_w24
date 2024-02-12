@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
 }
 
-main img {
+main img, video {
     width: 50%;
     height: auto;
     border-radius: 8px; /* Optional: Add rounded corners to the images */
